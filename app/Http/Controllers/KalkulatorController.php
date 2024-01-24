@@ -17,7 +17,8 @@ class KalkulatorController extends Controller
         $request->validate(
             [
                 'broj1' => 'required',
-                'broj2' =>'required'
+                'broj2' =>'required',
+                'operacija' => 'required'
             ]);
         }
             switch ($operacija) {
