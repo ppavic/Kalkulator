@@ -47,12 +47,12 @@ echo check_palindrom('anavolimilovana');
 function checkSum(){
     $niz = [];
 $a = 1;
-    while ($a <= 100) {
+    while ($a <= 5) {
        $niz[] = readline('unesite broj: ');
        $a++;
     }
     echo 'suma: '.array_sum($niz).PHP_EOL;
-    if (array_sum($niz)%2 === 1){
+    if (array_sum($niz)%2 != 0){
         checkSum();
     }
     else{
