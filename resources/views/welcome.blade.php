@@ -1,0 +1,1 @@
+<a href="/calc">Kalkulator</a>
